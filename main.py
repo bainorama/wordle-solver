@@ -4,7 +4,7 @@ from typing import Dict, List, Tuple
 
 _BEST_STARTS = ["soare", "arose"]
 
-with open("/home/alastairb/Downloads/sgb-words.txt", "r") as f:
+with open("words.txt", "r") as f:
     _DICTIONARY = [w for w in f.read().split("\n") if w != ""]
 
 
