@@ -1,13 +1,7 @@
 import string
 
+from helpers import try_remove
 from solver_base import SolverBase
-
-
-def try_remove(iterable, value):
-    try:
-        iterable.remove(value)
-    except ValueError:
-        pass
 
 
 class SmarterSolver(SolverBase):
